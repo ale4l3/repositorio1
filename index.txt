@@ -10,7 +10,7 @@ verifique que NO esté en el repositorio remoto. ¿Por qué no está? HECHO
 5. Modifique el archivo desde la interfaz web de Github, verifique que dicho cambio NO
 está aplicado localmente ¿Por qué no está? HECHO
 6. Ahora ejecute el comando correspondiente para traer los cambios y verifique que son
-visibles.
+visibles. HECHO
 7. Vuelva a modificar el archivo desde la interfaz web de Github, y antes de hacer el pull,
 modifique algo DISTINTO en su copia local y haga un commit de dichos cambios.
 8. Ahora pruebe hacer un push de sus cambios. ¿Qué sucedió? ¿ cómo puede proseguir?
