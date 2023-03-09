@@ -14,4 +14,17 @@ visibles.
 7. Vuelva a modificar el archivo desde la interfaz web de Github, y antes de hacer el pull,
 modifique algo DISTINTO en su copia local y haga un commit de dichos cambios. HECHO
 8. Ahora pruebe hacer un push de sus cambios. ¿Qué sucedió? ¿ cómo puede proseguir?
+
+To https://github.com/ale4l3/repositorio1.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/ale4l3/repositorio1.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Tira ese error porque el archivo de origen fue modificado en el directorio de github sin haber sido "pulleados" (la version del directorio de hub es una distinta a la del directorio local). Para no perder los cambios del archivo del directorio local habria que guardarlos en un archivo aparte, luego hacer pull de la nueva version que esta en el directorio de github. Agregar las modificaciones pertinentes a ese nueva version que previamente se habian realizado para luego nuevamente intentar de subirlo al directorio de hub mediante la cadena de comandos add, commit, push. En este caso la modificacion final en el directorio local: el punto 6 deberia aparecer con un "HECHO" al lado Y tambien modificare el punto 9 con un HECHO al lado para finalizar el trabajo.
+
+
 9. Arregle el problema
